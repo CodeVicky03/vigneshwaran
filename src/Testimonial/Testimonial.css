@@ -12,6 +12,11 @@
   padding: 0;
   text-align: center;
 }
+@media (min-width: 700px){
+  .testimonial>h1{
+    margin: 40px 0px 10px 0px;
+  }
+}
 .testimonial > p {
   text-align: center;
   font-size: 14px;
@@ -39,7 +44,7 @@
   padding: 0px;
 }
 .s-one>:nth-child(2){
-  height: 160px;
+  height: 100px;
   display: flex;
   align-items: center;
 }
@@ -92,6 +97,9 @@
   .testimonial{
     height: auto;
     margin-top: 140px;
+  }
+  .s-one>:nth-child(2){
+    height: 160px;
   }
 }
 @media(max-width: 380px){
