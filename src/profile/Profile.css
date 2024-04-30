@@ -107,6 +107,7 @@ html{
     display: block;
   }
 }
+
 @media (max-width: 500px){
   .navbar{
     position: inherit;
