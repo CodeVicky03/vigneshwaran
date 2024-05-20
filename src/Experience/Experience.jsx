@@ -28,11 +28,21 @@ const Experience = () => {
           and contribute effectively to my team at Zetway Technology.
         </p>
         <div className="view-certificate">
-          <p>Offer Letter</p>
+          <a
+            href="Internshipofferletter.pdf"
+            download="Internship-offer-letter.pdf"
+          >
+            <p>Offer Letter</p>
+          </a>
           <span>
             <IoIosLink />
           </span>
-          <p>Completion Certificates</p>
+          <a
+            href="InternshipCertificate.pdf"
+            download="Internship-Certificate.pdf"
+          >
+            <p>Completion Certificates</p>
+          </a>
         </div>
         <p>
           <span style={{ color: "#fd853a" }}>ZETWAY</span> :<br></br>
