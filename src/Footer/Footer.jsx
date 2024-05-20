@@ -10,9 +10,15 @@ const Footer = () => {
     <div className="footer">
       <section>
         <h1>vigneshwaran</h1>
-        <p>My Portfolio</p>
+        <p>
+          I am a front-end developer specializing in React, HTML, CSS, and
+          JavaScript. Additionally, I have expertise in MERN stack development,
+          which includes Node.js, Express.js, MongoDB, and React.
+        </p>
       </section>
-      <p className="copy-rights">&copy; 2024 by vigneshwaran. All rights reserved.</p>
+      <p className="copy-rights">
+        &copy; 2024 by vigneshwaran. All rights reserved.
+      </p>
       <section className="LINKS">
         <ul className="links-link">
           <li>Links</li>
