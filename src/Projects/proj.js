@@ -9,6 +9,7 @@ import log from "../assets/log.png";
 import form from "../assets/form.png";
 import emi from "../assets/emi.png";
 import invoice from "../assets/invoice.png"
+import port from "../assets/portfoliodemo.png"
 
 const proj = [
   {
@@ -116,6 +117,16 @@ const proj = [
     field : "frontend",
     git : "https://github.com/CodeVicky03/invoice",
     preview : "https://invoice-sand-nine.vercel.app/"
+  },
+  {
+    proj: "12",
+    title: "Portfolio",
+    description:
+      "I built a portfolio using React.js, featuring animations and a responsive design. This self-taught project allowed me to enhance my skills in modern web development, creating a visually engaging and adaptable online showcase of my work and abilities.",
+    image: port,
+    field : "frontend",
+    git : "https://github.com/CodeVicky03/Mywebsite",
+    preview : "https://portfolio-xi-lilac-24.vercel.app/"
   },
 ];
 
