@@ -114,7 +114,7 @@ const proj = [
     description:
       "I developed an invoice project using React and JavaScript, incorporating jsPDF for the first time. This self-taught project helped me learn jsPDF, a library for generating PDF documents, and enhanced my skills in creating dynamic, client-side PDF generation within web applications.",
     image: invoice,
-    field : "frontend",
+    field : "internship",
     git : "https://github.com/CodeVicky03/invoice",
     preview : "https://invoice-sand-nine.vercel.app/"
   },
