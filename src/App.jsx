@@ -15,32 +15,35 @@ function App() {
 
   return (
     <div>
-      <div className="main-slide" style={{display: sidebar ? "block" : "none"}}>
+      <div
+        className="main-slide"
+        style={{ display: sidebar ? "block" : "none" }}
+      >
         <ul className="side-bar">
           <p onClick={() => setSidebar((cur) => !cur)}>
             <FaXmark />
           </p>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#skill">Skill</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#testimonial">Testimonial</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
+          <a href="#home">
+            <li onClick={() => setSidebar((cur) => !cur)}>Home</li>
+          </a>
+          <a href="#about">
+            <li onClick={() => setSidebar((cur) => !cur)}>About</li>
+          </a>
+          <a href="#skill">
+            <li onClick={() => setSidebar((cur) => !cur)}>Skill</li>
+          </a>
+          <a href="#experience">
+            <li onClick={() => setSidebar((cur) => !cur)}>Experience</li>
+          </a>
+          <a href="#projects">
+            <li onClick={() => setSidebar((cur) => !cur)}>Projects</li>
+          </a>
+          <a href="#testimonial">
+            <li onClick={() => setSidebar((cur) => !cur)}>Testimonial</li>
+          </a>
+          <a href="#contact">
+            <li onClick={() => setSidebar((cur) => !cur)}>Contact</li>
+          </a>
         </ul>
       </div>
       <Profile setSidebar={setSidebar} />
