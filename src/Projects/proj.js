@@ -8,6 +8,7 @@ import login from "../assets/login.png";
 import log from "../assets/log.png";
 import form from "../assets/form.png";
 import emi from "../assets/emi.png";
+import invoice from "../assets/invoice.png"
 
 const proj = [
   {
@@ -111,7 +112,7 @@ const proj = [
     title: "Invoice",
     description:
       "I developed an invoice project using React and JavaScript, incorporating jsPDF for the first time. This self-taught project helped me learn jsPDF, a library for generating PDF documents, and enhanced my skills in creating dynamic, client-side PDF generation within web applications.",
-    image: form,
+    image: invoice,
     field : "frontend",
     git : "https://github.com/CodeVicky03/invoice",
     preview : "https://invoice-sand-nine.vercel.app/"
